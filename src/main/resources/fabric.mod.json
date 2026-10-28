@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dsh-mc-companion-server",
+  "version": "${version}",
+  "name": "dsh-mc-companion-server",
+  "description": "dsh-mc-companion-server Fabric mod",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.banbixieyang.dshmcserver.DshMcCompanionServer"],
+    "client": ["com.banbixieyang.dshmcserver.DshMcCompanionServer"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
